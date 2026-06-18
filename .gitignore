@@ -1,0 +1,31 @@
+*.log
+*.tmp
+*.bak
+
+# Local/probe output
+rgr06-events-*.csv
+rgr06-guided-events-*.csv
+rgr06-rawinput-*.csv
+rgr06-touchpad-status.txt
+docx_render_check/
+
+# Build output. Release installers are uploaded to GitHub Releases.
+dist/
+*.msi
+*.zip
+syntax-check-temp.exe
+tools/create_codex_computer_use_fix_doc.py
+tools/interception-test/AutoHotInterception/
+tools/interception-test/ahi-clean/
+tools/interception-test/Interception/Interception/library/
+tools/interception-test/Interception/Interception/samples/
+tools/interception-test/Interception/Interception/samples/**/*.exe
+
+# Local Codex repair notes mixed into the working folder.
+codex-*.log
+fix-codex-zh-cn.ps1
+Codex_Computer_Use_Windows*.docx
+
+# Editor/system files
+.DS_Store
+Thumbs.db
